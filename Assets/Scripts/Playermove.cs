@@ -66,10 +66,9 @@ public class Playermove : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-
+            SceneManager.LoadScene("Death");
         }
+
     }
 
 
